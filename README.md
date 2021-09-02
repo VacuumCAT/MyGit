@@ -3,7 +3,7 @@
 大部分代码、笔记来源于网络，如涉及版权问题请联系本人删除  
 目前正在更新的有：  
 1. AcWing 算法基础课  
-2. [AcWing Linux基础课笔记](#[Linux](https://github.com/VacuumCAT/MyGit/blob/master/AcWing/Linux%E5%9F%BA%E7%A1%80%E8%AF%BE/1.1%E5%B8%B8%E7%94%A8%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%E5%91%BD%E4%BB%A4.md))
+2. [AcWing Linux基础课笔记](https://github.com/VacuumCAT/MyGit/blob/master/AcWing/Linux%E5%9F%BA%E7%A1%80%E8%AF%BE/1.1%E5%B8%B8%E7%94%A8%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%E5%91%BD%E4%BB%A4.md)
 3. 剑指offer第二版刷题代码  
 4. LeetCode 刷题代码  
 5. 面试八股  
