@@ -39,7 +39,6 @@ int kruskal(){
 int main(){
     cin>>n>>m;
     int a,b,w;
-    for(int i=0;i<n;i++) p[i]=i;
     for(int i=0;i<m;i++){
         cin>>a>>b>>w;
         edges[i]={a,b,w};

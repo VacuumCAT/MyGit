@@ -1,6 +1,6 @@
 //显然暴力算法为O(n^2)
 //使用哈希表，时间复杂度可以到O(n)
-//这题类似于背单词的abandon
+//这题地位类似于背单词的abandon
 
 class Solution {
 public:
