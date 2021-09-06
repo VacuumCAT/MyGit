@@ -1,7 +1,8 @@
 //相比于Bellman-Ford算法，SPFA算法更好一些
 //前者只用于求限制边的数量的问题
 //二者都可以求图中有没有负环1
-
+//对于dijkstra，bellman_ford，spfa的区别可以看这篇文章
+//https://www.acwing.com/solution/content/21057/
 #include <iostream>
 #include <cstring>
 #include <algorithm>

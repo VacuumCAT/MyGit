@@ -23,6 +23,7 @@ int bellman_ford()
 {
     memset(dist,0x3f,sizeof dist);
     dist[1]=0;
+    //每次迭代可以从出发点“走一步”
     for(int i=0;i<k;i++)
     {
         memcpy(backup,dist,sizeof dist);
@@ -31,7 +32,7 @@ int bellman_ford()
             dist[b]=min(dist[b],backup[a]+w);
         }
     }
-    if(dist[n]>0x3f3f3f3f/2) return -1;
+    if(dist[n]>0x3f3f3f3f/2) return 0x3f3f3f3f;
     return dist[n];
 }
 
@@ -44,7 +45,7 @@ int main()
         edges[i]={a,b,w};
     }
     int t=bellman_ford();
-    if(t==-1) puts("impossible");
+    if(t==0x3f3f3f3f) puts("impossible");
     else printf("%d\n",t);
     
     return 0;
