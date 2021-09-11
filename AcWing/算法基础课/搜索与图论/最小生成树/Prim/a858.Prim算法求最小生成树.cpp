@@ -7,7 +7,7 @@ using namespace std;
 const int N = 510, INF = 0x3f3f3f3f;
 
 int n, m;
-int g[N][N];
+int g[N][N];//注意点的下标从1开始到n
 int dist[N];
 bool st[N];
 
